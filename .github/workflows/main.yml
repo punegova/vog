@@ -81,7 +81,7 @@ jobs:
 
           cat /tmp/proxy.txt
 
-          sshpass -p "${UT}" ssh -o StrictHostKeyChecking=no root@45.144.53.63 "echo ${PINGGY_URL} >> /var/www/html/ggr.txt"
+          sshpass -p "${UT}" ssh -o StrictHostKeyChecking=no root@45.144.53.63 "echo ${PINGGY_URL} >> /var/www/html/bore.txt"
           
       - name: Keep tunnel alive
         run: sleep 609
